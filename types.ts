@@ -3,3 +3,9 @@ export interface accountType {
  limit?:Number,
  products ?:Array<string> 
 }
+export interface UserBody{
+    email:string,
+    username?:string,
+    password?:string
+
+}

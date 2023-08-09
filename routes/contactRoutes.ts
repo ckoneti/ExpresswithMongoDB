@@ -10,7 +10,8 @@ router.post('/',postController)
 
 // update contact details
 router.put('/:id', putController)
-// deleted contact details
+
+// delete contact details
 router.delete('/:id', deleteController)
 
 
